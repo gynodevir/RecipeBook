@@ -6,7 +6,7 @@ import "./RecipeList.css";
 class RecipeList extends Component {
 	render() {
 		return (
-			<div>
+			<div className='recipe-list'>
 				<h2>Recipes List:</h2>
 				<ul>
 					{/* Map through each recipe and display them as list items */}

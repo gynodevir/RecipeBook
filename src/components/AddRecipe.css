@@ -1,0 +1,11 @@
+.add-recipe{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: rgb(252, 251, 251);
+    border-radius: 4px;
+    -webkit-box-shadow: -9px -2px 95px 18px rgba(0,0,0,0.75);
+-moz-box-shadow: -9px -2px 95px 18px rgba(0,0,0,0.75);
+box-shadow: -9px -2px 95px 18px rgba(0,0,0,0.75);
+    
+}

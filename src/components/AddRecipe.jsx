@@ -16,22 +16,23 @@ const AddRecipe = ({onAddRecipe}) => {
         setDescription("")
     } 
   return (
-   
-     <form onSubmit={handleSubmit}>
+    <div className='add-recipe'>
+     <form onSubmit={handleSubmit} >
 
         <input type='text' 
         className='title' 
         onChange={(e)=>setTitle(e.target.value)} 
-        value={title} placeholder='Enter the Title'/>
+        value={title} placeholder='Enter the Title' required/>
 
         <textarea  
         className='description' 
         onChange={(e)=>setDescription(e.target.value)} 
         value={description} 
-        placeholder='Enter the Description' />
+        placeholder='Enter the Description' required/>
         <button type='submit'>Add Recipe</button>
 
     </form> 
+    </div>
     
   )
 }
